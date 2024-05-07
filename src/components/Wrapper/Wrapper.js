@@ -1,11 +1,12 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import Person from '../Person/Person';
+import "../Wrapper/Wrapper.css";
 
 const Wrapper = () => {
     const [people, setPeople] = useState([]);
     useEffect(() => {
-        fetch('https://jsonplaceholder.typicode.com/photos')
+        fetch('https://raw.githubusercontent.com/jasimbdpro/jasim-cdn/main/uploads/friendData645454551245414.json')
             .then(res => res.json())
             .then(data => setPeople(data.slice(0, 20)))
 

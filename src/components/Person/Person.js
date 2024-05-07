@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Person/Person.css'
 
 const Person = (props) => {
 
@@ -6,7 +7,7 @@ const Person = (props) => {
 
 
     return (
-        <div>
+        <div className='personbox'>
             <h2>{title}</h2>
             <img src={url} alt="" />
         </div>

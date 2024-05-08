@@ -9,7 +9,7 @@ img {
 
 .personbox {
     display: flex;
-    border: 2px solid lightgrey;
+    /* border: 2px solid lightgrey; */
     padding: 20px;
     margin: 30px;
     border-radius: 20px;

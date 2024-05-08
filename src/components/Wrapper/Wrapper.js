@@ -9,7 +9,7 @@ const Wrapper = () => {
 
     const [people, setPeople] = useState([]);
     useEffect(() => {
-        fetch('https://raw.githubusercontent.com/jasimbdpro/jasim-cdn/main/uploads/sdfasdfasdfaweir9w3089qw458qcmj93fhqwj9wcm4j1j81h.json')
+        fetch('https://raw.githubusercontent.com/jasimbdpro/jasim-cdn/main/uploads/friendData32xfasdfw2498yinf4uhti9esdci92.json')
             .then(res => res.json())
             .then(data => setPeople(data))
             .catch(error => alert('Remote data is no loaded'))

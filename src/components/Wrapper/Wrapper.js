@@ -5,27 +5,32 @@ import "../Wrapper/Wrapper.css";
 import FriendList from '../FriendList/FriendList';
 
 const Wrapper = () => {
-    const [count, setCount] = useState(0);
-    const addingFriend = () => console.log('Clicked');
+    const [friend, setFriend] = useState([]);
+
     const [people, setPeople] = useState([]);
     useEffect(() => {
         fetch('https://raw.githubusercontent.com/jasimbdpro/jasim-cdn/main/uploads/sdfasdfasdfaweir9w3089qw458qcmj93fhqwj9wcm4j1j81h.json')
             .then(res => res.json())
-            .then(data => setPeople(data.slice(0, 20)))
+            .then(data => setPeople(data))
             .catch(error => alert('Remote data is no loaded'))
 
     }, [])
+    const addingFriend = (i) => {
+        const newFriend = [...friend, i];
+        setFriend(newFriend);
+        console.log('added')
+    }
     return (
         <div className='home-page'>
             <div>
                 {
-                    people.map(person =>
-                        <Person person={person} key={person.id} addingFriend={addingFriend}></Person>
+                    people.map(i =>
+                        <Person person={i} key={i.id} addingFriend={addingFriend}></Person>
                     )
                 }
             </div>
             <div>
-                <FriendList></FriendList>
+                <FriendList friend={friend}></FriendList>
             </div>
 
         </div>

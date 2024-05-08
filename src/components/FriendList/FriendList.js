@@ -1,9 +1,9 @@
 import React from 'react';
 
-const FriendList = () => {
+const FriendList = (props) => {
     return (
         <div>
-            <h2>Friend Added:........</h2>
+            <h2>Friend Added: {props.friend.length}</h2>
         </div>
     );
 };

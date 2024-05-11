@@ -7,9 +7,20 @@ img {
     border-radius: 30px;
 }
 
+.personbox h2 {
+    margin-top: -30px;
+}
+
+.personbox button {
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: 1px solid lightgray;
+}
+
 .personbox {
     display: flex;
     /* border: 2px solid lightgrey; */
+    align-items: center;
     padding: 20px;
     margin: 30px;
     border-radius: 20px;

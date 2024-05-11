@@ -3,3 +3,12 @@
     width: 30vw;
     height: 40vh;
 }
+
+h3 {
+    color: lightslategray;
+}
+
+.description {
+    margin: 0 30px;
+    color: gray;
+}

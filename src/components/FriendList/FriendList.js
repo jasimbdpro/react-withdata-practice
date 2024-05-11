@@ -9,7 +9,10 @@ const FriendList = (props) => {
     return (
         <div className='friend-list'>
             <h2>Friend Added: {friend.length}</h2>
-            <p>Total followers: {totalFollower}</p>
+            <h3>Total followers: {totalFollower}</h3>
+            <p className='description'>
+                This is my react practice assignment which include dynamic data from cdn, using font Awesome, using event handler, use of state etc. here github cdn is used for remote data hosting.
+            </p>
 
         </div>
     );

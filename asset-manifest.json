@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-withdata-practice/static/css/main.bd6d3de3.css",
+    "main.js": "/react-withdata-practice/static/js/main.50d60707.js",
+    "static/js/453.64512fd7.chunk.js": "/react-withdata-practice/static/js/453.64512fd7.chunk.js",
+    "index.html": "/react-withdata-practice/index.html",
+    "main.bd6d3de3.css.map": "/react-withdata-practice/static/css/main.bd6d3de3.css.map",
+    "main.50d60707.js.map": "/react-withdata-practice/static/js/main.50d60707.js.map",
+    "453.64512fd7.chunk.js.map": "/react-withdata-practice/static/js/453.64512fd7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd6d3de3.css",
+    "static/js/main.50d60707.js"
+  ]
+}

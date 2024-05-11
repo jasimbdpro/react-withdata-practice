@@ -12,13 +12,12 @@ const Wrapper = () => {
         fetch('https://raw.githubusercontent.com/jasimbdpro/jasim-cdn/main/uploads/friendData32xfasdfw2498yinf4uhti9esdci92.json')
             .then(res => res.json())
             .then(data => setPeople(data))
-            .catch(error => alert('Remote data is no loaded'))
+            .catch(error => alert('Remote data is not loaded'))
 
     }, [])
     const addingFriend = (i) => {
         const newFriend = [...friend, i];
         setFriend(newFriend);
-        console.log('added')
     }
     return (
         <div className='home-page'>

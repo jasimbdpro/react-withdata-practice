@@ -1,6 +1,6 @@
-import './App.css';
-import Header from './components/Header/Header';
-import Wrapper from './components/Wrapper/Wrapper';
+import './App/App.css';
+import Header from './App/Header';
+import Wrapper from './App/Wrapper';
 
 function App() {
   return (

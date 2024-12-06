@@ -1,8 +1,7 @@
-import React from 'react';
 import { useEffect, useState } from 'react';
-import Person from '../Person/Person';
-import "../Wrapper/Wrapper.css";
-import FriendList from '../FriendList/FriendList';
+import Person from './Wrapper/Person';
+import "./Wrapper/Wrapper.css";
+import FriendList from './Wrapper/FriendList';
 
 const Wrapper = () => {
     const [friend, setFriend] = useState([]);

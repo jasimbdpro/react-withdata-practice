@@ -1,4 +1,4 @@
-import '../Person/Person.css'
+import './Person/Person.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
 

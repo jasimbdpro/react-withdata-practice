@@ -1,5 +1,4 @@
-import React from 'react';
-import './FriendList.css'
+import './FriendList/FriendList.css'
 
 const FriendList = (props) => {
     const friend = props.friend;

@@ -5,11 +5,13 @@ import { faPlus } from '@fortawesome/free-solid-svg-icons';
 
 const Person = (props) => {
 
-    const { url, title, intro, followers } = props.person;
+    const { title, intro, followers } = props.person;
 
     return (
         <div className='personbox'>
-            <img className='profile-pic' src={url} alt="" />
+            <img className='profile-pic' src={
+                https://picsum.photos/200
+            } alt="" />
             <div className='profile-details'>
                 <h2>{title}</h2>
                 <p>{intro}</p>

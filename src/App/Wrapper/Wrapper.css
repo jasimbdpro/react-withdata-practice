@@ -1,3 +1,6 @@
 .home-page {
     display: flex;
+    position: relative;
+    /* height: 200vh; */
+    gap: 1rem; 
 }

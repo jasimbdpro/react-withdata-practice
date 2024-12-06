@@ -27,7 +27,7 @@ const Wrapper = () => {
                     )
                 }
             </div>
-            <div>
+            <div >
                 <FriendList friend={friend}></FriendList>
             </div>
 

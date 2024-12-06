@@ -6,7 +6,14 @@ const FriendList = (props) => {
 
 
     return (
-        <div className='friend-list'>
+        <div className='friend-list'
+            style={{
+                position: "sticky",
+                top: "10px", // Keeps the element at the top of the viewport
+                background: "white", // Optional for a consistent appearance
+                zIndex: "10" // Ensure it appears above other content
+            }}
+        >
             <h2>Friend Added: {friend.length}</h2>
             <h3>Total followers: {totalFollower}</h3>
             <p className='description'>

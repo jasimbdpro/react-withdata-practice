@@ -9,9 +9,7 @@ const Person = (props) => {
 
     return (
         <div className='personbox'>
-            <img className='profile-pic' src={
-                https://picsum.photos/200
-            } alt="" />
+            <img className='profile-pic' src="https://picsum.photos/200" alt="" />
             <div className='profile-details'>
                 <h2>{title}</h2>
                 <p>{intro}</p>
